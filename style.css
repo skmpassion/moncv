@@ -34,6 +34,7 @@ nav {
     position: fixed;
     width: 100%;
     opacity: 0.9;
+    text-transform: uppercase;
 }
 
 header li {
@@ -51,3 +52,50 @@ header li a {
     font-weight: bold;
     float: left;
 } 
+/* ************IMAGE PRINCIPAL****************** */
+#imagePrincipale {
+    padding-top: 60px;
+    /* background: url(./assets/garde.png) no-repeat fixed 50% 50%; */
+    background-color: #d4d3cf;
+    background-size: cover;
+    height: 300px;
+} 
+h1 {
+    text-transform: uppercase;
+    font-family: "Advent Pro", sans-serif;
+    text-align: center;
+    font-size: 3.5rem;
+    color: blueviolet;
+    /* margin-top: 6rem; */
+    text-shadow: 1px 3px 2px black;
+    padding-top: 30px;
+}
+#premierTrait {
+    height: 2px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: blueviolet;
+    box-shadow: 2px 3px 2px black;
+}
+p {
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    /* font-size: 3rem; */
+    /* text-shadow: 1px 3px 2px black; */
+    padding: 0 200px;
+}
+/* *****************Presentation******************** */
+#presentation {
+    background-color: #FFFAE1;
+    padding: 10px 0 100px 0;
+}
+#textInfo {
+    padding: 0 20%;
+    text-align: center;
+}
+#textInfo a {
+    color: blue;
+    font-weight: bold;
+}
+/* *****************Presentation******************** */
